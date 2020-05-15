@@ -6,7 +6,7 @@ public class City extends DataSupport {
     private int id;
     private String cityName;
     private int cityCode;
-    private int piovinceId;
+    private int provinceId;
 
     public int getId() {
         return id;
@@ -32,11 +32,11 @@ public class City extends DataSupport {
         this.cityCode = cityCode;
     }
 
-    public int getPiovinceId() {
-        return piovinceId;
+    public int getProvinceId() {
+        return provinceId;
     }
 
-    public void setPiovinceId(int piovinceId) {
-        this.piovinceId = piovinceId;
+    public void setProvinceId(int provinceId) {
+        this.provinceId = provinceId;
     }
 }
